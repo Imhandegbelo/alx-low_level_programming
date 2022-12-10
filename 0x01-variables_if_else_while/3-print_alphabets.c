@@ -11,14 +11,14 @@ int main(void)
 	char small = 'a';
 	char big = 'A';
 
-	while (small < 'z')
+	while (small <= 'z')
 	{
-		printf(small);
+		printf("%c", small);
 		small++;
 	}
-	while (big < 'Z')
+	while (big <= 'Z')
 	{
-		printf(big);
+		printf("%c", big);
 		big++;
 	}
 
