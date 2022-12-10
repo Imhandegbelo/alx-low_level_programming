@@ -13,7 +13,7 @@ int main(void)
 	while (c <= 'z')
 	{
 		printf("%c", c);
-		c++
+		c++;
 
 		if (c == 'e' || c == 'q')
 			continue;
