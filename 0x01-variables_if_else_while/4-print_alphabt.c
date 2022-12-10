@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: prints the alphabet excluding some
+ * main - entry point
+ * Description: prints the alphabet in lowercase, except q and e
  * Return: 0
- */
+*/
 
 int main(void)
 {
-	char c = 'a';
 
-	while (c <= 'z')
-	{
-		if (c != 'e' && c != 'q')
-			putchar(c);
-	}
-	printf("\n");
+	int ch;
 
+	for (ch = 'a'; ch <= 'z'; ch++)
+		if (ch != 'e' && ch != 'q')
+			putchar(ch);
+	putchar('\n');
 	return (0);
 }
