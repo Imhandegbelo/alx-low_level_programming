@@ -18,8 +18,12 @@ int main(void)
 		{
 			putchar(i + '0');
 			putchar(k + '0');
-			putchar(',');
-			putchar(' ');
+
+			if (i != 8 || y != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
