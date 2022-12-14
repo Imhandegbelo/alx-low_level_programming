@@ -3,19 +3,16 @@
 /**
  * main - Entry point
  * Description: prints _putchar to stdout
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	char st[] = "_putchar";
-	int chr = 0;
+	int ch;
 
-	while (chr < 8 )
-	{
-		_putchar(st[chr]);
-		chr++;
-	}
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(st[ch]);
 	_putchar('\n');
 
 	return (0);
