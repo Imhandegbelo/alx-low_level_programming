@@ -1,4 +1,12 @@
 # alx-low_level_programming
 Starting the C language on my journey to becoming a software engineer in the ALX SE program
 ## File structure
-[0x00-hello_world](./0x00-hello_world)
+* [0x00-hello_world](./0x00-hello_world)
+* [0x01-](./0x01-)
+* [0x02-](./0x02-)
+* [0x03-](./0x03-)
+* [0x04-](./0x04-)
+* [0x05-](./0x05-)
+* [0x06-](./0x06-)
+* [0x07-](./0x07-)
+* [0x01-](./0x01-)
