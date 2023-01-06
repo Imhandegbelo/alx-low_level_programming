@@ -8,9 +8,9 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0, len = 0, el;
+	int len = 0, el;
 
-	while (a[i])
+	while (a[len])
 		len++;
 	if (len == n)
 	{
@@ -19,5 +19,5 @@ void print_array(int *a, int n)
 		printf("%d\n", a[n - 1]);
 	}
 	else
-		printf("\n");
+		printf(" \n");
 }
