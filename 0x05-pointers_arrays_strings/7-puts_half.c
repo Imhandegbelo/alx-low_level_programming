@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * puts-half - string is even? print half of it : print (length-1)/2 of it
  * @str: input string
