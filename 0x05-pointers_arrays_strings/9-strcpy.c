@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcpy - copies string including terminating null to dest
  * @dest: pointer to buffer
