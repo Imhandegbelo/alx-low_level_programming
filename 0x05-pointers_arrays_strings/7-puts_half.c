@@ -11,10 +11,10 @@ void puts_half(char *str)
 	int length_of_the_string = strlen(str);
 	int half;
 
-	if (length_of_the_string % 2 == 0)
+	/*if (length_of_the_string % 2 == 0)*/
 		half = length_of_the_string / 2;
-	else
-		half = (length_of_the_string) / 2;
+	/*else
+		half = (length_of_the_string) / 2;*/
 
 	while (*(str + half) != '\0')
 	{
