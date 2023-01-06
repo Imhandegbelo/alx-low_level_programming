@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * puts2 - prints all odd characters of a string beginings from *[0]
  * @str: string to analyse
