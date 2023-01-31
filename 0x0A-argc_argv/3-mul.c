@@ -9,7 +9,7 @@
  * 	1 if args not = 2
  */
 
-int main(int argc, char *argv[g)
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
